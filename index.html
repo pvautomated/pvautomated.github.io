@@ -61,13 +61,13 @@
 	<div class="grid">
 		<div class="card">
 			<div class="label">Sample Message 1</div>
-			<textarea id="desc" readonly>Hi James, this is Alex from [LEGAL BUSINESS NAME]. Thank you for reaching out to us! We received your inquiry and a team member will be in touch within the next 24 hours. Reply STOP to opt out or HELP for assistance. Msg & data rates may apply.</textarea>
-			<button onclick="copyText('desc')">Copy</button>
+			<textarea id="sm1" readonly>Hi James, this is Alex from [LEGAL BUSINESS NAME]. Thank you for reaching out to us! We received your inquiry and a team member will be in touch within the next 24 hours. Reply STOP to opt out or HELP for assistance. Msg & data rates may apply.</textarea>
+			<button onclick="copyText('sm1')">Copy</button>
 		</div>
 		<div class="card">
 			<div class="label">Sample Message 2</div>
-			<textarea id="optin" readonly>Hi Tim, it's [LEGAL BUSINESS NAME]! As a valued subscriber, we wanted to let you know about a limited-time offer just for you. Visit [COMPANY WEBSITE] to learn more. Reply STOP to opt out or HELP for assistance. Msg & data rates may apply.</textarea>
-			<button onclick="copyText('optin')">Copy</button>
+			<textarea id="sm2" readonly>Hi Tim, it's [LEGAL BUSINESS NAME]! As a valued subscriber, we wanted to let you know about a limited-time offer just for you. Visit [COMPANY WEBSITE] to learn more. Reply STOP to opt out or HELP for assistance. Msg & data rates may apply.</textarea>
+			<button onclick="copyText('sm2')">Copy</button>
 		</div>		
 	</div>
 	<div class="card">
@@ -82,34 +82,28 @@
 			</ul>
 		</ul>
 		<div class="label">Non-marketing consent (1st checkbox)</div>
-		<textarea id="optin" readonly>I consent to receive non-marketing messages about appointment reminders, informational follow-ups and inquiry replies from [LEGAL BUSINESS NAME]. Message frequency varies, up to 4 messages per month. Message & data rates may apply. Text HELP for assistance, reply STOP to opt out.</textarea>
+		<textarea id="consent1" readonly>I consent to receive non-marketing messages about appointment reminders, informational follow-ups and inquiry replies from [LEGAL BUSINESS NAME]. Message frequency varies, up to 4 messages per month. Message & data rates may apply. Text HELP for assistance, reply STOP to opt out.</textarea>
+		<button onclick="copyText('consent1')">Copy</button>
 		<div class="label">Marketing consent (2nd checkbox)</div>
-		<textarea id="optin" readonly>I consent to receive promotional notifications about [PROMOTIONAL CAMPAIGNS] from [LEGAL BUSINESS NAME] at the phone number provided. Message frequency varies, up to 4 messages per month. Message & data rates may apply. Text HELP for assistance, reply STOP to opt out.</textarea>
+		<textarea id="consent2" readonly>I consent to receive promotional notifications about [PROMOTIONAL CAMPAIGNS] from [LEGAL BUSINESS NAME] at the phone number provided. Message frequency varies, up to 4 messages per month. Message & data rates may apply. Text HELP for assistance, reply STOP to opt out.</textarea>
+		<button onclick="copyText('consent2')">Copy</button>
 	</div>	
 	<div class="card">
-		<div class="label">Sample Message 2</div>
-		<textarea id="optin" readonly>Hi Tim, it's [LEGAL BUSINESS NAME]! As a valued subscriber, we wanted to let you know about a limited-time offer just for you. Visit [COMPANY WEBSITE] to learn more. Reply STOP to opt out or HELP for assistance. Msg & data rates may apply.</textarea>
-		<button onclick="copyText('optin')">Copy</button>
-	</div>
-	<div class="card">
 		<div class="label">How do Contacts Opt-in to Messages?</div>
-		<textarea id="sample" readonly>Users opt in by submitting their mobile phone number and actively selecting one or both unchecked consent checkboxes on the contact form at [COMPANY WEBSITE OR PAGE WITH A2P COMPLIANT FORM]. Each checkbox clearly describes the category of messages the user will receive (non-promotional or promotional), as detailed in the Use Case Description field.
+		<textarea id="optin-how" readonly>Users opt in by submitting their mobile phone number and actively selecting one or both unchecked consent checkboxes on the contact form at [COMPANY WEBSITE OR PAGE WITH A2P COMPLIANT FORM]. Each checkbox clearly describes the category of messages the user will receive (non-promotional or promotional), as detailed in the Use Case Description field.
 
 Consent is optional and not required to use the service. After submitting the form and selecting consent, users receive a confirmation SMS message.
 
 Please refer to [COMPANY WEBSITE] for the most up-to-date version of the business website and opt-in form.</textarea>
-		<button onclick="copyText('sample')">Copy</button>
+		<button onclick="copyText('optin-how')">Copy</button>
 	</div>
 	<div class="card">
 		<div class="label">Opt-In Message <font style="color:rgb(255, 226, 63); font-weight: 1000;">***DO NOT modify this message except to replace the Company Name</b></font></div>
-		<textarea id="sample" readonly>You are now subscribed to receive SMS messages from [COMPANY NAME]. Up to 4 msgs/month. Msg & data rates may apply. Reply STOP to unsubscribe, HELP for help. Privacy Policy: [privacy_policy_link] Terms: [terms_link]</textarea>
-		<button onclick="copyText('sample')">Copy</button>
+		<textarea id="optin-msg" readonly>You are now subscribed to receive SMS messages from [COMPANY NAME]. Up to 4 msgs/month. Msg & data rates may apply. Reply STOP to unsubscribe, HELP for help. Privacy Policy: [privacy_policy_link] Terms: [terms_link]</textarea>
+		<button onclick="copyText('optin-msg')">Copy</button>
 	</div>				
 
-
-
 </div>
-
 </div>
 
 
